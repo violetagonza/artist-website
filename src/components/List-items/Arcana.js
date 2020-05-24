@@ -16,7 +16,7 @@ function Arcana() {
         <article>
           <small>16/11 — 15/02 2020</small>
           <p>Curator Laura González Palacios</p>
-          <p>in Chiquita Room, Barcelona</p>
+          <p>In Chiquita Room, Barcelona</p>
           <p>with</p>
           <ul>
             <li>Beatriz Sánchez,</li>
