@@ -10,10 +10,12 @@ function Landing() {
         <p>
           I’m an artist - <Link to='/bio'>bio</Link>
         </p>
-        <a href='mailto:taniabertajudith@gmail.com'>taniabertajudith@gmail.com</a>
-        <a href='https://www.instagram.com/tania_berta_judith/' target='_blank' rel='noopener noreferrer'>
-          Instagram
-        </a>
+        <address>
+          <a href='mailto:taniabertajudith@gmail.com'>taniabertajudith@gmail.com</a>
+          <a href='https://www.instagram.com/tania_berta_judith/' target='_blank' rel='noopener noreferrer'>
+            Instagram
+          </a>
+        </address>
 
         <h2>Selected work</h2>
         <List />
