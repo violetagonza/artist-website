@@ -13,10 +13,12 @@ function Mantra() {
       </Link>
       <Header title='Esto es todo lo que tengo que hacer para solucionar este problema que tengo en mi mente' />
       <main>
-        <p>Sábana heredada en donde bordo, a modo de mantra, una nota encontrada post-mortem de mi abuela política Julia: “Esto es todo lo que tengo que hacer para solucionar este problema que tengo en mi mente”. </p>
-        <img src={mantra1} alt='' />
-        <img src={mantra2} alt='' />
-        <img src={mantra3} alt='' />
+        <article>
+          <p>Sábana heredada en donde bordo, a modo de mantra, una nota encontrada post-mortem de mi abuela política Julia: “Esto es todo lo que tengo que hacer para solucionar este problema que tengo en mi mente”. </p>
+          <img src={mantra1} alt='' />
+          <img src={mantra2} alt='' />
+          <img src={mantra3} alt='' />
+        </article>
       </main>
     </>
   );

@@ -13,11 +13,13 @@ function Loteria() {
       </Link>
       <Header title='Lotería de la mama 23046/32046' />
       <main>
-        <p>Sábana heredada con un roto en forma de “siete” en donde transfiero a bordado la nota que lleva mi abuela en la cartera con los números de la lotería a los que jugaba su madre. </p>
+        <article>
+          <p>Sábana heredada con un roto en forma de “siete” en donde transfiero a bordado la nota que lleva mi abuela en la cartera con los números de la lotería a los que jugaba su madre. </p>
+          <img src={loteria1} alt='' />
+          <img src={loteria2} alt='' />
+          <img src={loteria3} alt='' />
+        </article>
       </main>
-      <img src={loteria1} alt='' />
-      <img src={loteria2} alt='' />
-      <img src={loteria3} alt='' />
     </>
   );
 }
