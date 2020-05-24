@@ -22,7 +22,7 @@ function Picasso() {
           <p>with</p>
 
           <ul>
-            <li> Cristina Lucas,</li>
+            <li>Cristina Lucas,</li>
             <li>Daniel García-Andújar,</li>
             <li>Eulalia Valldosera,</li>
             <li>Miquel Barceló,</li>
@@ -83,6 +83,7 @@ function Picasso() {
             </a>{' '}
             to go outside and be confused with the people.
           </p>
+          <p>178x244 cm</p>
           <img src={picasso1} alt='' />
           <img src={picasso2} alt='' />
           <img src={picasso3} alt='' />
