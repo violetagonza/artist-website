@@ -6,21 +6,28 @@ function Landing() {
   return (
     <>
       <Header title='Tania Berta Judith' />
-      <main>
-        <p>
-          I’m an artist - <Link to='/bio'>bio</Link>
+      <main className='landing'>
+        <p className='landing-text'>
+          I’m an artist -{' '}
+          <Link className='landing-link' to='/bio'>
+            bio
+          </Link>
         </p>
         <address>
-          <a href='mailto:taniabertajudith@gmail.com'>taniabertajudith@gmail.com</a>
-          <a href='https://www.instagram.com/tania_berta_judith/' target='_blank' rel='noopener noreferrer'>
-            Instagram
+          <a className='landing-link' href='mailto:taniabertajudith@gmail.com'>
+            taniabertajudith@gmail.com
+          </a>
+          <a className='landing-link block' href='https://www.instagram.com/tania_berta_judith/' target='_blank' rel='noopener noreferrer'>
+            instagram
           </a>
         </address>
 
-        <h2>Selected work</h2>
+        <h2 className='landing-text__title'>Selected work</h2>
         <List />
-        <h2>My book</h2>
-        <Link to='/magia'>El libro de la magia blanca</Link>
+        <h2 className='landing-text__title'>My book</h2>
+        <Link className='landing-link' to='/magia'>
+          El libro de la magia blanca
+        </Link>
       </main>
     </>
   );

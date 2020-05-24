@@ -1,6 +1,41 @@
-.header {
-  font-family: $font-secondary;
-  font-style: italic;
-  font-size: 110%;
-  font-weight: normal;
+.block {
+  display: block;
+  width: 100px;
+}
+.landing {
+  &-text {
+    font-family: $font-primary;
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    &__title {
+      font-family: $font-primary;
+      font-size: 100%;
+      font-weight: normal;
+      text-transform: lowercase;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+  }
+  &-link {
+    font-family: $font-primary;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: $color-primary;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    &:hover {
+      font-family: $font-primary-hover;
+      font-style: italic;
+      color: $color-secondary;
+    }
+  }
+  &-list {
+    padding-left: 20px;
+    list-style: circle;
+  }
 }
