@@ -20,7 +20,7 @@ function Bio() {
         <footer>
           <p>Mar Cianuro</p>
         </footer>
-        <img src={image}></img>
+        <img alt='Retrato de Tania Berta Judith' src={image}></img>
       </main>
     </>
   );

@@ -1,9 +1,11 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <footer>
-      <small> &copy; 2020 Tania Berta Judith </small>
+      <Link to='/'>
+        <small> &copy; Tania Berta Judith 2020 </small>
+      </Link>
     </footer>
   );
 }
