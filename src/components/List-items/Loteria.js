@@ -18,6 +18,7 @@ function Loteria() {
           <img src={loteria1} alt='' />
           <img src={loteria2} alt='' />
           <img src={loteria3} alt='' />
+          <iframe title='Loteria' src='https://youtube.com/embed/w4BWCHCgGVI'></iframe>
         </article>
       </main>
     </>

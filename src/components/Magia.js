@@ -14,7 +14,13 @@ function Magia() {
         <p>
           Un moderno manual de hechizos para hacer de tu vida <i>algo mejor</i>.
         </p>
-        <p>Escrito e ilustrado por Tania Berta Judith, diseño gráfico de Judit Musachs.</p>
+        <p>
+          Escrito e ilustrado por Tania Berta Judith, diseño gráfico de{' '}
+          <a href='https://www.behance.net/juditmusachs' target='_blank' rel='noopener noreferrer'>
+            Judit Musachs
+          </a>
+          .
+        </p>
         <p>Editado por Fulgencio Pimentel.</p>
         <p>
           Disponible en librerías o{' '}
@@ -29,50 +35,44 @@ function Magia() {
               1
             </a>
           </li>
-
           <li>
-            <a href='https://alibreria.com/2019/11/12/el-libro-de-la-magia-blanca-de-tania-berta-judith/' target='_blank' rel='noopener noreferrer'>
+            <a href='https://www.culturetas.es/magia-blanca-para-brujas-buenas/' target='_blank' rel='noopener noreferrer'>
               2
             </a>
           </li>
           <li>
-            <a href='https://www.culturetas.es/magia-blanca-para-brujas-buenas/' target='_blank' rel='noopener noreferrer'>
+            <a href='http://www.enplanculto.es/2019/11/20/el-libro-de-la-magia-blanca-de-tania-berta-judith/' target='_blank' rel='noopener noreferrer'>
               3
             </a>
           </li>
           <li>
-            <a href='http://www.enplanculto.es/2019/11/20/el-libro-de-la-magia-blanca-de-tania-berta-judith/' target='_blank' rel='noopener noreferrer'>
+            <a href='https://www.lacentral.com/blog/tania-berta-judith-166327' target='_blank' rel='noopener noreferrer'>
               4
             </a>
           </li>
           <li>
-            <a href='https://www.lacentral.com/blog/tania-berta-judith-166327' target='_blank' rel='noopener noreferrer'>
+            <a href='https://www.lavanguardia.com/libros/20191122/471779998444/libro-magia-blanca-tania-berta-judith-hechizos-benevolos.html?fbclid=IwAR2dlyv73S4TWFO88nPw6gsNsRoty3czwl5Ntcvbkx-d9VQiazY5VXMFCho' target='_blank' rel='noopener noreferrer'>
               5
             </a>
           </li>
           <li>
-            <a href='https://www.lavanguardia.com/libros/20191122/471779998444/libro-magia-blanca-tania-berta-judith-hechizos-benevolos.html?fbclid=IwAR2dlyv73S4TWFO88nPw6gsNsRoty3czwl5Ntcvbkx-d9VQiazY5VXMFCho' target='_blank' rel='noopener noreferrer'>
+            <a href='https://www.primaverasound.com/es/radio/shows/tardeo' target='_blank' rel='noopener noreferrer'>
               6
             </a>
           </li>
           <li>
-            <a href='https://www.primaverasound.com/es/radio/shows/tardeo' target='_blank' rel='noopener noreferrer'>
+            <a href='https://www.ccma.cat/tv3/alacarta/quan-arribin-els-marcians/bruixes/video/5965166/' target='_blank' rel='noopener noreferrer'>
               7
             </a>
           </li>
           <li>
-            <a href='https://www.ccma.cat/tv3/alacarta/quan-arribin-els-marcians/bruixes/video/5965166/' target='_blank' rel='noopener noreferrer'>
+            <a href='http://www.casachiribiri.com/diseno/el-libro-de-la-magia-blanca/' target='_blank' rel='noopener noreferrer'>
               8
             </a>
           </li>
           <li>
-            <a href='http://www.casachiribiri.com/diseno/el-libro-de-la-magia-blanca/' target='_blank' rel='noopener noreferrer'>
-              9
-            </a>
-          </li>
-          <li>
             <a href='https://www.youtube.com/watch?v=EI7kPuLaiAw' target='_blank' rel='noopener noreferrer'>
-              10
+              9
             </a>
           </li>
         </ul>

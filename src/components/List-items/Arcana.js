@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Header';
 import arcana1 from '../../images/arcana/arcana_1.png';
 import arcana2 from '../../images/arcana/arcana_2.png';
-import arcana3 from '../../images/arcana/IMG_3061.mov';
+import arcana3 from '../../images/arcana/gif-arcana.gif';
 import { Link } from 'react-router-dom';
 
 function Arcana() {
@@ -49,7 +49,7 @@ function Arcana() {
         </article>
         <img alt='' src={arcana1}></img>
         <img alt='' src={arcana2}></img>
-        <video width='500px' src={arcana3}></video>
+        <img alt='' src={arcana3}></img>
       </main>
     </>
   );

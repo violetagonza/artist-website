@@ -11,7 +11,7 @@ function Rosas() {
       <Link to='/' title='volver'>
         <i className='fas fa-long-arrow-alt-left'></i>
       </Link>
-      <Header title='Rosas' />
+      <Header title='3 Rosas' />
       <main>
         <article>
           <p>This series is comprised of cross stitch kits from Framecraft Minuatures Ltd, designed by Ailsa Carradus</p>

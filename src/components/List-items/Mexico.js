@@ -41,7 +41,7 @@ function Mexico() {
           <img src={mexico11} alt='' />
           <img src={mexico12} alt='' />
         </article>
-        <a href='https://www.youtube.com/watch?v=cQXxM-RAYsU&t=1284s' target='_blank' rel='noopener noreferrer'>
+        <a href='https://www.youtube.com/watch?v=cQXxM-RAYsU' target='_blank' rel='noopener noreferrer'>
           Maria Sabina de Huautla de Jiménez
         </a>
       </main>

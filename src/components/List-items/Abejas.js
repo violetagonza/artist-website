@@ -12,7 +12,7 @@ function Abejas() {
       <Link to='/' title='volver'>
         <i className='fas fa-long-arrow-alt-left'></i>
       </Link>
-      <Header title='Manteles' />
+      <Header title='7 abejas' />
       <main>
         <article>
           <p>A series of two cross-stitched tablecloths put to use during the Christmas holidays of 2017.</p>

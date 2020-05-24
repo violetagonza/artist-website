@@ -76,13 +76,7 @@ function Picasso() {
             </li>
           </ul>
           <p>The exhibition In the Name of the Father explores the artistic and vital legacy of Pablo Picasso from different perspectives but always as an inescapable reference and included in the line of research of the relationship of current contemporary artists with the work and the figure of Pablo Picasso. There will be works by various artists who highlight their connection with Picasso. This exhibition aims to analyse and celebrate the survival of Picasso in today’s art. I participated with:</p>
-          <p>
-            This piece was placed in one of the porticoes of the building, allowing the reverse to be seen from the street, thus getting the figure of the{' '}
-            <a href='https://www.instagram.com/p/By-ApaWoII4/' target='_blank' rel='noopener noreferrer'>
-              minotaur
-            </a>{' '}
-            to go outside and be confused with the people.
-          </p>
+          <p>This piece was placed in one of the porticoes of the building, allowing the reverse to be seen from the street, thus getting the figure of the minotaur to go outside and be confused with the people.</p>
           <p>178x244 cm</p>
           <img src={picasso1} alt='' />
           <img src={picasso2} alt='' />
