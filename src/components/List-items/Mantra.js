@@ -8,16 +8,16 @@ import { Link } from 'react-router-dom';
 function Mantra() {
   return (
     <>
-      <Link to='/' title='volver'>
+      <Link className='arrow-icon' to='/' title='volver'>
         <i className='fas fa-long-arrow-alt-left'></i>
       </Link>
       <Header title='Esto es todo lo que tengo que hacer para solucionar este problema que tengo en mi mente' />
       <main>
         <article>
-          <p>Sábana heredada en donde bordo, a modo de mantra, una nota encontrada post-mortem de mi abuela política Julia: “Esto es todo lo que tengo que hacer para solucionar este problema que tengo en mi mente”. </p>
-          <img src={mantra1} alt='' />
-          <img src={mantra2} alt='' />
-          <img src={mantra3} alt='' />
+          <p className='text'>Sábana heredada en donde bordo, a modo de mantra, una nota encontrada post-mortem de mi abuela política Julia: “Esto es todo lo que tengo que hacer para solucionar este problema que tengo en mi mente”. </p>
+          <img className='image' src={mantra1} alt='' />
+          <img className='image' src={mantra2} alt='' />
+          <img className='image' src={mantra3} alt='' />
         </article>
       </main>
     </>

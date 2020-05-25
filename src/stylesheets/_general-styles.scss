@@ -1,0 +1,111 @@
+.arrow-icon {
+  font-size: 120%;
+  color: $color-primary;
+  &:hover {
+    color: $color-secondary;
+  }
+}
+.hidden {
+  display: none;
+}
+.text {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-family: $font-primary;
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 22px;
+  &-title {
+    font-family: $font-primary;
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+.link {
+  font-family: $font-primary;
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  color: $color-primary;
+  line-height: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  &:hover {
+    font-family: $font-primary-hover;
+    font-style: italic;
+    color: $color-secondary;
+  }
+}
+
+.signature {
+  margin-top: 20px;
+  text-decoration: underline;
+  text-align: end;
+}
+
+.press {
+  display: flex;
+  &-list {
+    list-style: none;
+    padding-left: 5px;
+    margin-top: 20px;
+    &__item {
+      display: inline;
+      margin-left: 5px;
+    }
+  }
+}
+
+.image {
+  margin-top: 15px;
+  display: block;
+}
+
+.video {
+  padding-left: 50px;
+  width: 800px;
+  height: 525px;
+  border: 0;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.initial-text {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-family: $font-primary;
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 22px;
+  margin-left: 25px;
+}
+
+.names-list {
+  font-family: $font-primary;
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 22px;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 25px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  &__item {
+    display: inline;
+    margin-left: 5px;
+    &-first {
+      display: inline;
+      margin-left: 0;
+    }
+  }
+}
+
+.quote {
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+}

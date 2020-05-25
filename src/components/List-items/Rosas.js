@@ -8,20 +8,22 @@ import { Link } from 'react-router-dom';
 function Rosas() {
   return (
     <>
-      <Link to='/' title='volver'>
+      <Link className='arrow-icon' to='/' title='volver'>
         <i className='fas fa-long-arrow-alt-left'></i>
       </Link>
-      <Header title='Rosas' />
+      <Header title='3 Rosas' />
       <main>
         <article>
-          <p>This series is comprised of cross stitch kits from Framecraft Minuatures Ltd, designed by Ailsa Carradus</p>
-          <p>I follow the established pattern in the stem and on the leaves and I break it in the flower, where I complete it with other leaves, thus mutating the shape. My aim is to highlight the importance of preserving our traditions and ancestral knowledges, as well as to demonstrate their permeability with respect to our always varying perspectives and realities.</p>
-          <p>8x8 cm each one</p>
+          <p className='initial-text'>
+            This series is comprised of cross stitch kits from Framecraft Minuatures Ltd <span className='hidden'>,</span> <br /> designed by Ailsa Carradus.
+          </p>
+          <p className='text'>I follow the established pattern in the stem and on the leaves and I break it in the flower, where I complete it with other leaves, thus mutating the shape. My aim is to highlight the importance of preserving our traditions and ancestral knowledges, as well as to demonstrate their permeability with respect to our always varying perspectives and realities.</p>
+          <p className='text'>8x8 cm each one</p>
           <img src={rosas1} alt='' />
           <img src={rosas2} alt='' />
           <img src={rosas3} alt='' />
         </article>
-        <a href='https://www.youtube.com/watch?v=IJT5i5NmONc' target='_blank' rel='noopener noreferrer'>
+        <a className='link' href='https://www.youtube.com/watch?v=IJT5i5NmONc' target='_blank' rel='noopener noreferrer'>
           Roses and Utena
         </a>
       </main>

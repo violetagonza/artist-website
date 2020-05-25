@@ -6,79 +6,86 @@ import image from '../images/magia/portada.png';
 function Magia() {
   return (
     <>
-      <Link to='/' title='volver'>
+      <Link className='arrow-icon' to='/' title='volver'>
         <i className='fas fa-long-arrow-alt-left'></i>
       </Link>
       <Header title='El libro de la magia blanca' />
       <main>
-        <p>
+        <p className='text'>
           Un moderno manual de hechizos para hacer de tu vida <i>algo mejor</i>.
         </p>
-        <p>Escrito e ilustrado por Tania Berta Judith, diseño gráfico de Judit Musachs.</p>
-        <p>Editado por Fulgencio Pimentel.</p>
-        <p>
+        <p className='text'>
+          Escrito e ilustrado por Tania Berta Judith<span className='hidden'>,</span>
+          <br />
+          diseño gráfico de{' '}
+          <a className='link' href='https://www.behance.net/juditmusachs' target='_blank' rel='noopener noreferrer'>
+            Judit Musachs
+          </a>
+          <span className='hidden'>,</span>
+          <br />
+          editado por Fulgencio Pimentel.
+        </p>
+        <p className='magia-text'>
           Disponible en librerías o{' '}
-          <a href='https://www.fulgenciopimentel.com/libros/el-libro-de-la-magia-blanca' target='_blank' rel='noopener noreferrer'>
+          <a className='link' href='https://www.fulgenciopimentel.com/libros/el-libro-de-la-magia-blanca' target='_blank' rel='noopener noreferrer'>
             aquí
           </a>
         </p>
-        <h2>Prensa</h2>
-        <ul>
-          <li>
-            <a href='https://liberoamerica.com/2020/04/18/la-magia-es-un-puente-de-purpurina-y-flores-de-colores-hacia-tus-propositosentrevista-a-tania-berta-judith/' target='_blank' rel='noopener noreferrer'>
-              1
-            </a>
-          </li>
-
-          <li>
-            <a href='https://alibreria.com/2019/11/12/el-libro-de-la-magia-blanca-de-tania-berta-judith/' target='_blank' rel='noopener noreferrer'>
-              2
-            </a>
-          </li>
-          <li>
-            <a href='https://www.culturetas.es/magia-blanca-para-brujas-buenas/' target='_blank' rel='noopener noreferrer'>
-              3
-            </a>
-          </li>
-          <li>
-            <a href='http://www.enplanculto.es/2019/11/20/el-libro-de-la-magia-blanca-de-tania-berta-judith/' target='_blank' rel='noopener noreferrer'>
-              4
-            </a>
-          </li>
-          <li>
-            <a href='https://www.lacentral.com/blog/tania-berta-judith-166327' target='_blank' rel='noopener noreferrer'>
-              5
-            </a>
-          </li>
-          <li>
-            <a href='https://www.lavanguardia.com/libros/20191122/471779998444/libro-magia-blanca-tania-berta-judith-hechizos-benevolos.html?fbclid=IwAR2dlyv73S4TWFO88nPw6gsNsRoty3czwl5Ntcvbkx-d9VQiazY5VXMFCho' target='_blank' rel='noopener noreferrer'>
-              6
-            </a>
-          </li>
-          <li>
-            <a href='https://www.primaverasound.com/es/radio/shows/tardeo' target='_blank' rel='noopener noreferrer'>
-              7
-            </a>
-          </li>
-          <li>
-            <a href='https://www.ccma.cat/tv3/alacarta/quan-arribin-els-marcians/bruixes/video/5965166/' target='_blank' rel='noopener noreferrer'>
-              8
-            </a>
-          </li>
-          <li>
-            <a href='http://www.casachiribiri.com/diseno/el-libro-de-la-magia-blanca/' target='_blank' rel='noopener noreferrer'>
-              9
-            </a>
-          </li>
-          <li>
-            <a href='https://www.youtube.com/watch?v=EI7kPuLaiAw' target='_blank' rel='noopener noreferrer'>
-              10
-            </a>
-          </li>
-        </ul>
-        <img alt='Portada El libro de la magia blanca' src={image} />
+        <div className='press'>
+          <h2 className='text-title'>Prensa</h2>
+          <ul className='press-list'>
+            <li className='press-list__item'>
+              <a className='link' href='https://liberoamerica.com/2020/04/18/la-magia-es-un-puente-de-purpurina-y-flores-de-colores-hacia-tus-propositosentrevista-a-tania-berta-judith/' target='_blank' rel='noopener noreferrer'>
+                1 -
+              </a>
+            </li>
+            <li className='press-list__item'>
+              <a className='link' href='https://www.culturetas.es/magia-blanca-para-brujas-buenas/' target='_blank' rel='noopener noreferrer'>
+                2 -
+              </a>
+            </li>
+            <li className='press-list__item'>
+              {' '}
+              <a className='link' href='http://www.enplanculto.es/2019/11/20/el-libro-de-la-magia-blanca-de-tania-berta-judith/' target='_blank' rel='noopener noreferrer'>
+                3 -
+              </a>
+            </li>
+            <li className='press-list__item'>
+              {' '}
+              <a className='link' href='https://www.lacentral.com/blog/tania-berta-judith-166327' target='_blank' rel='noopener noreferrer'>
+                4 -
+              </a>
+            </li>
+            <li className='press-list__item'>
+              <a className='link' href='https://www.lavanguardia.com/libros/20191122/471779998444/libro-magia-blanca-tania-berta-judith-hechizos-benevolos.html?fbclid=IwAR2dlyv73S4TWFO88nPw6gsNsRoty3czwl5Ntcvbkx-d9VQiazY5VXMFCho' target='_blank' rel='noopener noreferrer'>
+                5 -
+              </a>
+            </li>
+            <li className='press-list__item'>
+              <a className='link' href='https://www.primaverasound.com/es/radio/shows/tardeo' target='_blank' rel='noopener noreferrer'>
+                6 -
+              </a>
+            </li>
+            <li className='press-list__item'>
+              <a className='link' href='https://www.ccma.cat/tv3/alacarta/quan-arribin-els-marcians/bruixes/video/5965166/' target='_blank' rel='noopener noreferrer'>
+                7 -
+              </a>
+            </li>
+            <li className='press-list__item'>
+              <a className='link' href='http://www.casachiribiri.com/diseno/el-libro-de-la-magia-blanca/' target='_blank' rel='noopener noreferrer'>
+                8 -
+              </a>
+            </li>
+            <li className='press-list__item'>
+              <a className='link' href='https://www.youtube.com/watch?v=EI7kPuLaiAw' target='_blank' rel='noopener noreferrer'>
+                9
+              </a>
+            </li>
+          </ul>
+        </div>
+        <img className='image' alt='Portada El libro de la magia blanca' src={image} />
         <article>
-          <iframe title='Imágenes del interior del libro' src='https://player.vimeo.com/video/368011194'></iframe>
+          <iframe className='video image' allow='autoplay' allowFullScreen title='Imágenes del interior del libro' src='https://player.vimeo.com/video/368011194'></iframe>
           <footer>
             <small>Video &copy; Judit Musachs</small>
           </footer>

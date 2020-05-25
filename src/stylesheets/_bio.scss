@@ -1,0 +1,11 @@
+@media all and (min-width: 800px) {
+  .bio {
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    &-img {
+      margin-left: 20px;
+    }
+  }
+}
