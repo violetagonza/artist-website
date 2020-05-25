@@ -17,31 +17,31 @@ import { Link } from 'react-router-dom';
 function Mexico() {
   return (
     <>
-      <Link to='/' title='volver'>
+      <Link className='arrow-icon' to='/' title='volver'>
         <i className='fas fa-long-arrow-alt-left'></i>
       </Link>
       <Header title='Mujeres Tortilla' />
       <main>
         <article>
-          <small>21/11 — 21/01 2016</small>
-          <p>Curator Adriana de la Rosa</p>
-          <p>La Casa Rosa, Oaxaca</p>
-          <p>Based on my experiences living with women from two Mazatec families in Huautla de Jimenez (Oaxaca, Mexico), I embroidered a huipil as a storytelling device. This is the piece that lead me to use embroidery as a means for research and made me aware of our responsibility to conserve the knowledges of our ancestors.</p>
-          <p>90x50 cm</p>
-          <img src={mexico1} alt='' />
-          <img src={mexico2} alt='' />
-          <img src={mexico3} alt='' />
-          <img src={mexico4} alt='' />
-          <img src={mexico5} alt='' />
-          <img src={mexico6} alt='' />
-          <img src={mexico7} alt='' />
-          <img src={mexico8} alt='' />
-          <img src={mexico9} alt='' />
-          <img src={mexico10} alt='' />
-          <img src={mexico11} alt='' />
-          <img src={mexico12} alt='' />
+          <small className='initial-text'>21/11 — 21/01 2016</small>
+          <p className='initial-text'>Curator Adriana de la Rosa.</p>
+          <p className='initial-text'>La Casa Rosa, Oaxaca.</p>
+          <p className='text'>Based on my experiences living with women from two Mazatec families in Huautla de Jimenez (Oaxaca, Mexico), I embroidered a huipil as a storytelling device. This is the piece that lead me to use embroidery as a means for research and made me aware of our responsibility to conserve the knowledges of our ancestors.</p>
+          <p className='text'>90x50 cm</p>
+          <img className='image' src={mexico1} alt='' />
+          <img className='image' src={mexico2} alt='' />
+          <img className='image' src={mexico3} alt='' />
+          <img className='image' src={mexico4} alt='' />
+          <img className='image' src={mexico5} alt='' />
+          <img className='image' src={mexico6} alt='' />
+          <img className='image' src={mexico7} alt='' />
+          <img className='image' src={mexico8} alt='' />
+          <img className='image' src={mexico9} alt='' />
+          <img className='image' src={mexico10} alt='' />
+          <img className='image' src={mexico11} alt='' />
+          <img className='image' src={mexico12} alt='' />
         </article>
-        <a href='https://www.youtube.com/watch?v=cQXxM-RAYsU' target='_blank' rel='noopener noreferrer'>
+        <a className='link' href='https://www.youtube.com/watch?v=cQXxM-RAYsU' target='_blank' rel='noopener noreferrer'>
           Maria Sabina de Huautla de Jiménez
         </a>
       </main>
