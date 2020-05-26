@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 import sabana1 from '../../images/267/sabana_1.png';
 import sabana2 from '../../images/267/sabana_2.png';
 import sabana3 from '../../images/267/sabana_3.png';
@@ -31,6 +32,7 @@ function DosSeisSiete() {
           <img className='image' src={sabana3} alt='' />
         </article>
       </main>
+      <Footer />
     </>
   );
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
+import Footer from './Footer';
 import image from '../images/magia/portada.png';
 
 function Magia() {
@@ -91,6 +92,7 @@ function Magia() {
           </footer>
         </article>
       </main>
+      <Footer />
     </>
   );
 }

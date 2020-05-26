@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 import mexico1 from '../../images/mexico/mexico_1.png';
 import mexico2 from '../../images/mexico/mexico_2.png';
 import mexico3 from '../../images/mexico/mexico_3.png';
@@ -45,6 +46,7 @@ function Mexico() {
           Maria Sabina de Huautla de Jiménez
         </a>
       </main>
+      <Footer />
     </>
   );
 }

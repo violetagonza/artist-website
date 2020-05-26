@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import image from '../images/bio/dama.jpg';
 import { Link } from 'react-router-dom';
 
-function Bio() {
+function Bio(props) {
   return (
     <>
       <Link to='/' title='volver'>
@@ -26,6 +27,7 @@ function Bio() {
           </div>
         </article>
       </main>
+      <Footer hidden='hidden' position='footer-position' />
     </>
   );
 }

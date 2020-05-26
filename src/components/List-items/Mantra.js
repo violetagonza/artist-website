@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 import mantra1 from '../../images/mantra/mantra_1.png';
 import mantra2 from '../../images/mantra/mantra_2.png';
 import mantra3 from '../../images/mantra/mantra_3.png';
@@ -20,6 +21,7 @@ function Mantra() {
           <img className='image' src={mantra3} alt='' />
         </article>
       </main>
+      <Footer />
     </>
   );
 }

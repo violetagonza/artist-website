@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 import picasso1 from '../../images/picasso/minotauro_1.jpg';
 import picasso2 from '../../images/picasso/minotauro_2.png';
 import picasso3 from '../../images/picasso/minotauro_3.jpg';
@@ -85,6 +86,7 @@ function Picasso() {
           <img className='image' src={picasso5} alt='' />
         </article>
       </main>
+      <Footer />
     </>
   );
 }
