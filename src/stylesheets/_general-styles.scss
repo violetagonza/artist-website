@@ -1,8 +1,13 @@
+body {
+  margin-left: 13px;
+}
 .arrow-icon {
   font-size: 120%;
   color: $color-primary;
+
   &:hover {
     color: $color-secondary;
+    cursor: pointer;
   }
 }
 .hidden {

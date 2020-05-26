@@ -1,5 +1,7 @@
 .footer {
   margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
   &-text {
     color: $color-primary;
     text-decoration: none;

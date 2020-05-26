@@ -18,7 +18,7 @@ function Bio() {
             <p className='text'>Tania’s work is radically feminist. In it, embroidery becomes a politicized technique that is used to reclaim the knowledges of women, especially those that have been passed on via the maternal line, restoring authority to this practice as a space for the transmission of knowledges.</p>
             <p className='text'>In the face of culture and the written word, crucial technology for the construction of patriarchal power and the normalization of a world explained through androcentrism, Tania Berta Judith stirs the hierarchy of the illustrated knowledges and designs a symbolic world where orality acquires power, intuition becomes method, and the needle embroiders other holy scriptures.</p>
             <footer>
-              <p className='text signature'>Mar Cianuro</p>
+              <p className='text'>Mar Cianuro</p>
             </footer>
           </div>
           <div>

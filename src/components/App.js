@@ -14,7 +14,7 @@ import DosSeisSiete from './List-items/DosSeisSiete';
 import Footer from './Footer';
 import { Switch, Route } from 'react-router-dom';
 
-function App() {
+function App(props) {
   return (
     <div>
       <Switch>
@@ -32,7 +32,7 @@ function App() {
         <Route path='/267' component={DosSeisSiete} />
       </Switch>
 
-      <Footer />
+      <Footer hidden={props.hidden} />
     </div>
   );
 }
