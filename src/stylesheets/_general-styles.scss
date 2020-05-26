@@ -1,8 +1,18 @@
+.body {
+  margin-left: 13px;
+  // margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 .arrow-icon {
   font-size: 120%;
   color: $color-primary;
+  position: relative;
+
   &:hover {
     color: $color-secondary;
+    cursor: pointer;
   }
 }
 .hidden {

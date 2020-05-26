@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import List from './List';
 import { Link } from 'react-router-dom';
 function Landing() {
@@ -29,6 +30,7 @@ function Landing() {
           El libro de la magia blanca
         </Link>
       </main>
+      <Footer hidden='hidden' position='footer-position' />
     </>
   );
 }

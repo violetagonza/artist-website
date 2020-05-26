@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 import rosas1 from '../../images/rosas/rosas_1.png';
 import rosas2 from '../../images/rosas/rosas_2.png';
 import rosas3 from '../../images/rosas/rosas_3.png';
@@ -27,6 +28,7 @@ function Rosas() {
           Roses and Utena
         </a>
       </main>
+      <Footer />
     </>
   );
 }

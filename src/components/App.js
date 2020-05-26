@@ -11,12 +11,11 @@ import Loteria from './List-items/Loteria';
 import Rosas from './List-items/Rosas';
 import Abejas from './List-items/Abejas';
 import DosSeisSiete from './List-items/DosSeisSiete';
-import Footer from './Footer';
 import { Switch, Route } from 'react-router-dom';
 
-function App() {
+function App(props) {
   return (
-    <div>
+    <>
       <Switch>
         <Route exact path='/' component={Landing} />
         <Route path='/bio' component={Bio} />
@@ -31,9 +30,7 @@ function App() {
         <Route path='/abejas' component={Abejas} />
         <Route path='/267' component={DosSeisSiete} />
       </Switch>
-
-      <Footer />
-    </div>
+    </>
   );
 }
 

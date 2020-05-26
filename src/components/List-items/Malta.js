@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 import woman1 from '../../images/malta/woman_awake_1.png';
 import woman2 from '../../images/malta/woman_awake_2.png';
 import woman3 from '../../images/malta/woman_awake_3.png';
@@ -68,6 +69,7 @@ function Malta() {
           Jennifer Berezan and the Hypogeum at Hal Saflieni of Malta
         </a>
       </main>
+      <Footer />
     </>
   );
 }

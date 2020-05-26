@@ -1,7 +1,16 @@
 .footer {
-  margin-top: 40px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1 0 auto;
+
   &-text {
     color: $color-primary;
     text-decoration: none;
+    margin: 10px;
+  }
+  &-position {
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 }

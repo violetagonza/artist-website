@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 import loteria1 from '../../images/loteria/loteria_1.png';
 import loteria2 from '../../images/loteria/loteria_2.png';
 import loteria3 from '../../images/loteria/loteria_3.png';
@@ -21,6 +22,7 @@ function Loteria() {
           <iframe className='video' title='Loteria' src='https://youtube.com/embed/w4BWCHCgGVI'></iframe>
         </article>
       </main>
+      <Footer />
     </>
   );
 }

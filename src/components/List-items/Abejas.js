@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 import abejas1 from '../../images/abejas/manteles_1.png';
 import abejas2 from '../../images/abejas/manteles_2.png';
 import abejas3 from '../../images/abejas/manteles_3.png';
@@ -27,6 +28,7 @@ function Abejas() {
           Buy mantecaos de canela de Antequera
         </a>
       </main>
+      <Footer />
     </>
   );
 }
