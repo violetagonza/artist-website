@@ -17,15 +17,18 @@ function Malta() {
       <Link className='arrow-icon' to='/' title='volver'>
         <i className='fas fa-long-arrow-alt-left'></i>
       </Link>
-      <Header title='Constellation Malta' />
+      <Header title='Women awake, Named & 267 grandmothers' />
       <main>
         <article>
+          <p className='initial-text'>
+            It was part of <br /> «Constellation Malta»
+          </p>
           <small className='initial-text'>12/10 — 09/12 2018</small>
-          <p className='initial-text'>Curator Rosa Martínez.</p>
-          <p className='initial-text'>In various heritatge sites of Malta</p>
+          <p className='initial-text'>Curator Rosa Martínez,</p>
+          <p className='initial-text'>in various heritatge sites of Malta,</p>
 
           <ul className='names-list'>
-            <li className='names-list__item-first'>With Austin Camilleri,</li>
+            <li className='names-list__item-first'>with Austin Camilleri,</li>
             <li className='names-list__item'>Chiharu Shiota,</li>
             <li className='names-list__item'>Eulalia Valldosera,</li>
             <li className='names-list__item'>Kjungjin Cho,</li>
@@ -36,10 +39,10 @@ function Malta() {
           <a className='link' href='https://www.timesofmalta.com/articles/view/20181113/life-features/creating-new-constellations-of-meaning.694179?fbclid=IwAR1lMIJh0qbLvg1KqG5QOCfJMuZiM0lAGYDhn4kiGwU0w26a6lC87YWw_aY' target='_blank' rel='noopener noreferrer'>
             Press release
           </a>
-          <p className='text'>The project Constellation Malta proposes a series of artistic interventions throughout the geography of the Maltese archipelago with the desire of creating fruitful dialogues between historical heritage, popular culture and contemporary art. I participated with three pieces:</p>
+          <p className='text'>The project «Constellation Malta» proposes a series of artistic interventions throughout the geography of the Maltese archipelago with the desire of creating fruitful dialogues between historical heritage, popular culture and contemporary art. I participated with three pieces:</p>
           <section>
-            <h4 className='text-title'>Women Awake</h4>
-            <p className='text'>Women Awake is the embroidered representation of Hipogeo Hal Saflieni, which is one of the oldest temples in Europe as well as the only subterranean one. It is a labyrinth of decorated chambres with large coils of ochre, which, with intermittent light, give the effect of the movement of dancing spirals. It was in this temple that archeologists discovered a figurine known as the Sleeping Lady, a woman in a prehistoric cot. In my own representation, in the corresponding location where the Sleeping Lady was discovered, I embroidered a shape with 24 carat golden thread: a small gem of light to wake this woman (as well the rest of us).</p>
+            <h4 className='text-title'>Women awake</h4>
+            <p className='text'>«Women awake» is the embroidered representation of Hipogeo Hal Saflieni, which is one of the oldest temples in Europe as well as the only subterranean one. It is a labyrinth of decorated chambres with large coils of ochre, which, with intermittent light, give the effect of the movement of dancing spirals. It was in this temple that archeologists discovered a figurine known as the Sleeping Lady, a woman in a prehistoric cot. In my own representation, in the corresponding location where the Sleeping Lady was discovered, I embroidered a shape with 24 carat golden thread: a small gem of light to wake this woman (as well the rest of us).</p>
             <p className='text'>In the National Archeological Museum of Malta in Constellation Malta, the piece was placed directly in front of the Sleeping Lady.</p>
             <p className='text'>163x188 cm</p>
             <img className='image' src={woman1} alt='' />
@@ -58,15 +61,15 @@ function Malta() {
           </section>
 
           <section>
-            <h4 className='text-title'>267</h4>
+            <h4 className='text-title'>267 grandmothers</h4>
             <p className='text'>This piece was exhibited in the Ta'Kola Windmill Museum, positioned on top of a bed and beneath a hanging cradle, as if to look after it.</p>
             <p className='text'>208x228 cm</p>
             <img className='image' src={dosSeisSiete1} alt='' />
             <img className='image' src={dosSeisSiete2} alt='' />
           </section>
         </article>
-        <a className='link' href='https://creation-designs.com/gracemillennium/winter00/html/berezan.htm' target='_blank' rel='noopener noreferrer'>
-          Jennifer Berezan and the Hypogeum at Hal Saflieni of Malta
+        <a className='link-separate' href='https://creation-designs.com/gracemillennium/winter00/html/berezan.htm' target='_blank' rel='noopener noreferrer'>
+          Read here about the music work of Jennifer Berezan and the Hypogeum at Hal Saflieni of Malta
         </a>
       </main>
       <Footer />

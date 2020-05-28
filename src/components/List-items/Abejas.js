@@ -13,7 +13,7 @@ function Abejas() {
       <Link className='arrow-icon' to='/' title='volver'>
         <i className='fas fa-long-arrow-alt-left'></i>
       </Link>
-      <Header title='7 abejas' />
+      <Header title='7 bees' />
       <main>
         <article>
           <p className='text'>A series of two cross-stitched tablecloths put to use during the Christmas holidays of 2017.</p>
@@ -24,8 +24,8 @@ function Abejas() {
           <img className='image' src={abejas3} alt='' />
           <img className='image' src={abejas4} alt='' />
         </article>
-        <a className='link' href='https://es.openfoodfacts.org/producto/2000000013645/mantecados-de-canela-con-grasa-vegetal-la-flor-de-antequera' target='_blank' rel='noopener noreferrer'>
-          Buy mantecaos de canela de Antequera
+        <a className='link-separate' href='https://es.openfoodfacts.org/producto/2000000013645/mantecados-de-canela-con-grasa-vegetal-la-flor-de-antequera' target='_blank' rel='noopener noreferrer'>
+          Here you can buy the typical Christmas sweets from Antequera, my family's town: mantecaos de canela
         </a>
       </main>
       <Footer />

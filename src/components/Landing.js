@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Landing() {
   return (
     <>
-      <Header title='Tania Berta Judith' />
+      <Header title='Tania Berta Judith' style='header-landing' />
       <main className='landing'>
         <p className='landing-text'>
           I’m an artist -{' '}

@@ -12,7 +12,7 @@ function Mantra() {
       <Link className='arrow-icon' to='/' title='volver'>
         <i className='fas fa-long-arrow-alt-left'></i>
       </Link>
-      <Header title='Esto es todo lo que tengo que hacer para solucionar este problema que tengo en mi mente' />
+      <Header title=' This is all I have to do to fix this problem on my mind' />
       <main>
         <article>
           <p className='text'>Sábana heredada en donde bordo, a modo de mantra, una nota encontrada post-mortem de mi abuela política Julia: “Esto es todo lo que tengo que hacer para solucionar este problema que tengo en mi mente”. </p>

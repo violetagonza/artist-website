@@ -12,7 +12,7 @@ function DosSeisSiete() {
       <Link className='arrow-icon' to='/' title='volver'>
         <i className='fas fa-long-arrow-alt-left'></i>
       </Link>
-      <Header title='267' />
+      <Header title='267 grandmothers' />
       <main>
         <article>
           <p className='text'>This one of the sheets from my grandmother's trousseau that I repurposed by embroidering on it the names of the female ancestors from my family tree.</p>
@@ -25,7 +25,7 @@ function DosSeisSiete() {
           <p className='text'>Ana</p>
           <p className='text'>Luisa</p>
           <p className='name-last'>2017</p>
-          <p className='text'>There are many names that are nearly impossible to trace (even more so for women), but in all there are 267. This was thanks to my fathers research, which uncovered the names of our ancestors dating back to the 16th century..</p>
+          <p className='text'>There are many names that are nearly impossible to trace (even more so for women), but in all there are 267. This was thanks to my fathers research, which uncovered the names of our ancestors dating back to the 16th century.</p>
           <p className='text'>208x228</p>
           <img className='image' src={sabana1} alt='' />
           <img className='image' src={sabana2} alt='' />

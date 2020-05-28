@@ -2,4 +2,7 @@
   font-family: $font-secondary;
   font-size: 110%;
   font-weight: bold;
+  &-landing {
+    margin-bottom: 0;
+  }
 }
