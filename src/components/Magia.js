@@ -13,27 +13,29 @@ function Magia() {
       <Header title='El libro de la magia blanca' />
       <main>
         <p className='text'>
-          Un moderno manual de hechizos para hacer de tu vida <i>algo mejor</i>.
+          A modern spell manual to make your life <i>something better</i>.
         </p>
         <p className='text'>
-          Escrito e ilustrado por Tania Berta Judith<span className='hidden'>,</span>
+          Written and illustrated by Tania Berta Judith,
           <br />
-          diseño gráfico de{' '}
+          graphic design by{' '}
           <a className='link' href='https://www.behance.net/juditmusachs' target='_blank' rel='noopener noreferrer'>
             Judit Musachs
           </a>
           <span className='hidden'>,</span>
           <br />
-          editado por Fulgencio Pimentel.
+          edited by Fulgencio Pimentel.
         </p>
         <p className='magia-text'>
-          Disponible en librerías o{' '}
+          Available in bookstores or{' '}
           <a className='link' href='https://www.fulgenciopimentel.com/libros/el-libro-de-la-magia-blanca' target='_blank' rel='noopener noreferrer'>
-            aquí
+            here
           </a>
+          .
         </p>
+        <p className='text'>Coming soon in English.</p>
         <div className='press'>
-          <h2 className='text-title'>Prensa</h2>
+          <h2 className='text-title'>Press release</h2>
           <ul className='press-list'>
             <li className='press-list__item'>
               <a className='link' href='https://liberoamerica.com/2020/04/18/la-magia-es-un-puente-de-purpurina-y-flores-de-colores-hacia-tus-propositosentrevista-a-tania-berta-judith/' target='_blank' rel='noopener noreferrer'>

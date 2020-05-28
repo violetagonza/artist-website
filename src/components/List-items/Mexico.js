@@ -21,12 +21,12 @@ function Mexico() {
       <Link className='arrow-icon' to='/' title='volver'>
         <i className='fas fa-long-arrow-alt-left'></i>
       </Link>
-      <Header title='Mujeres Tortilla' />
+      <Header title='Tortilla women' />
       <main>
         <article>
           <small className='initial-text'>21/11 — 21/01 2016</small>
-          <p className='initial-text'>Curator Adriana de la Rosa.</p>
-          <p className='initial-text'>La Casa Rosa, Oaxaca.</p>
+          <p className='initial-text'>Curator Adriana de la Rosa,</p>
+          <p className='initial-text'>in La Casa Rosa, Oaxaca de Juarez, Mexico.</p>
           <p className='text'>Based on my experiences living with women from two Mazatec families in Huautla de Jimenez (Oaxaca, Mexico), I embroidered a huipil as a storytelling device. This is the piece that lead me to use embroidery as a means for research and made me aware of our responsibility to conserve the knowledges of our ancestors.</p>
           <p className='text'>90x50 cm</p>
           <img className='image' src={mexico1} alt='' />
@@ -40,10 +40,9 @@ function Mexico() {
           <img className='image' src={mexico9} alt='' />
           <img className='image' src={mexico10} alt='' />
           <img className='image' src={mexico11} alt='' />
-          <img className='image' src={mexico12} alt='' />
         </article>
-        <a className='link' href='https://www.youtube.com/watch?v=cQXxM-RAYsU' target='_blank' rel='noopener noreferrer'>
-          Maria Sabina de Huautla de Jiménez
+        <a className='link-separate' href='https://www.youtube.com/watch?v=cQXxM-RAYsU' target='_blank' rel='noopener noreferrer'>
+          Here the documentary of the medicine woman Maria Sabina of Huautla de Jimenez
         </a>
       </main>
       <Footer />

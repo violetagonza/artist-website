@@ -12,7 +12,7 @@ function Rosas() {
       <Link className='arrow-icon' to='/' title='volver'>
         <i className='fas fa-long-arrow-alt-left'></i>
       </Link>
-      <Header title='3 Rosas' />
+      <Header title='3 roses' />
       <main>
         <article>
           <p className='initial-text'>
@@ -24,9 +24,6 @@ function Rosas() {
           <img src={rosas2} alt='' />
           <img src={rosas3} alt='' />
         </article>
-        <a className='link' href='https://www.youtube.com/watch?v=IJT5i5NmONc' target='_blank' rel='noopener noreferrer'>
-          Roses and Utena
-        </a>
       </main>
       <Footer />
     </>

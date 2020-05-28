@@ -6,50 +6,50 @@ function List() {
       <ul className='landing-list'>
         <li>
           <Link className='landing-link' to='/arcana'>
-            Arcana, the secrets of Tarot. Chiquita Room, Barcelona
+            The Emperor
           </Link>
         </li>
         <li>
           <Link className='landing-link' to='/picasso'>
             {' '}
-            In the name of father. Museu Picasso de Barcelona
+            Minotaur
           </Link>
         </li>
         <li>
           <Link className='landing-link' to='/malta'>
-            Constellation Malta. National Archeological Museum of Malta
+            Women awake, Named & 267 grandmothers
           </Link>
         </li>
         <li>
           <Link className='landing-link' to='/mexico'>
             {' '}
-            Mujeres tortilla. Casa Rosa, Oaxaca de Juárez (México){' '}
+            Tortilla women
           </Link>
         </li>
         <li>
           <Link className='landing-link' to='/mantra'>
             {' '}
-            Esto es todo lo que tengo que hacer para solucionar este problema que tengo en mi mente
+            This is all I have to do to fix this problem on my mind
           </Link>
         </li>
         <li>
           <Link className='landing-link' to='/loteria'>
-            Loteria de la mama 23046/32046
+            Mom lottery 23046/32046
           </Link>
         </li>
         <li>
           <Link className='landing-link' to='/rosas'>
-            3 Rosas
+            3 roses
           </Link>
         </li>
         <li>
           <Link className='landing-link' to='/abejas'>
-            7 abejas
+            7 bees
           </Link>
         </li>
         <li>
           <Link className='landing-link' to='/267'>
-            267
+            267 grandmothers
           </Link>
         </li>
       </ul>
